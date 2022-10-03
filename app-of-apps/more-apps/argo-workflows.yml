@@ -22,7 +22,7 @@ spec:
     server: https://kubernetes.default.svc
     namespace: argo-workflows
 
-  # Sync policy
+  ### Sync policy
   syncPolicy:
     syncOptions:
       - CreateNamespace=true  
